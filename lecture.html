@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <nav>
+          <a href="#">Lectures</a>
+          <a href="#">Lecturer</a>
+          <a href="#">Courses</a>
+          <a href="#">Finance</a>
+        </nav>
+      </div>
+      <div>
+        <header>
+          <h1>Lecture Entry System</h1>
+        </header>
+
+        <div id="container">
+          <!--TABLE BEGINS HERE-->
+          <div class="div-50">
+            <h1>List of Lecture Entries</h1>
+            <a href="#">New</a>
+            <a href="#">Print</a>
+            <a href="#">Excel</a>
+            <form>
+              <input type="text" />
+              <input type="submit" />
+            </form>
+
+            <table>
+              <tr>
+                <th>Date</th>
+                <th>Course</th>
+                <th>Time In</th>
+                <th>Time out</th>
+                <th>Action</th>
+              </tr>
+              <tr>
+                <td>May 01, 2022</td>
+                <td>Advanced Web Technology</td>
+                <td>11:00</td>
+                <td>12:30</td>
+                <td>
+                  <a href="#">View</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>May 01, 2022</td>
+                <td>Advanced Web Technology</td>
+                <td>11:00</td>
+                <td>12:30</td>
+                <td>
+                  <a href="#">View</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>May 01, 2022</td>
+                <td>Advanced Web Technology</td>
+                <td>11:00</td>
+                <td>12:30</td>
+                <td>
+                  <a href="#">View</a>
+                  <a href="#">Edit</a>
+                  <a href="#">Delete</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--FORM BEGINS HERE-->
+          <div class="div-50">
+            <h1>New Lecture Entry</h1>
+            <form>
+              <label>Course</label>
+              <select>
+                <option>Advanced Web Technology</option>
+                <option>C++ Programming</option>
+                <option>OOP with Java</option>
+                <option>Mobile Computing</option></select
+              ><br />
+              <label>Topic</label>
+              <input type="text" /><br />
+              <label>Date</label>
+              <input type="date" /><br />
+              <label>Time In</label>
+              <input type="time" />
+              <label>Time Out</label>
+              <input type="time" /><br />
+              <input type="checkbox" /><label
+                >I agree that this information true</label
+              ><br />
+              <input type="reset" value="CANCEL" />
+              <input type="submit" value="SAVE" />
+            </form>
+          </div>
+        </div>
+
+        <footer>Semester 8, Spring 2022 &copy; 2022</footer>
+      </div>
+    </div>
+  </body>
+</html>
