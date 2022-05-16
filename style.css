@@ -1,5 +1,25 @@
-#container{
+html, body{
+    height: 100%;
+}
+.d-flex{
     display: flex;
+}
+#side-bar{
+    width: 20%;
+}
+#main{
+    width:80%;
+}
+
+nav{
+   background-color: rgb(20, 18, 18);
+   height:100%;
+}
+nav a{
+    display: block;
+}
+#container{
+        height: 100%;
 }
 div{
     border: 1px solid black;
